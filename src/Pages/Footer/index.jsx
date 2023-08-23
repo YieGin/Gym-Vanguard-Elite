@@ -34,7 +34,7 @@ const Footer = () => {
           <div className="flex gap-x-2">
             <FiMapPin size={24} color="#ABABAB" />
             <p className="font-Roboto text-[14px] text-[#ABABAB]">
-              165 Lake Stperry NY 14530-1409, USA
+              124 Lake Stperry NY 12345-1110, USA
             </p>
           </div>
           <div className="flex gap-x-2 SmartphonesSm:mt-4 TabletSm:mt-0">
