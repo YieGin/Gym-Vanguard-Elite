@@ -1,0 +1,95 @@
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+ }
+ 
+ .container {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 17px;
+  user-select: none;
+ }
+ 
+ .checkmark {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 1.3em;
+  width: 1.3em;
+  background-color: #ccc;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+ }
+ 
+ .container input:checked ~ .checkmark {
+  background-color: #181818;
+ }
+ 
+ .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+ }
+ 
+ .container input:checked ~ .checkmark:after {
+  display: block;
+ }
+ 
+ .container .checkmark:after {
+  left: 0.45em;
+  top: 0.25em;
+  width: 0.35em;
+  height: 0.6em;
+  border: solid rgb(233, 222, 222);
+  border-width: 0 0.15em 0.15em 0;
+  transform: rotate(45deg);
+ }
+
+
+ .custom-range {
+  appearance: none;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(to right, black 0%, black 50%, green 50%, green 100%);
+  border-radius: 5px;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+.custom-range::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.custom-range::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.custom-range::-ms-thumb {
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.custom-range::-webkit-slider-thumb:hover,
+.custom-range::-webkit-slider-thumb:focus,
+.custom-range::-moz-range-thumb:hover,
+.custom-range::-moz-range-thumb:focus,
+.custom-range::-ms-thumb:hover,
+.custom-range::-ms-thumb:focus {
+  background: black;
+}
