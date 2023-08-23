@@ -11,5 +11,5 @@ export { default as Logo } from "./Logo.png";
 export { default as Cards } from "./Cards.png";
 export { default as Paypal } from "./Paypal.png";
 export { default as GiftTop } from "./GiftTop.png";
-export { default as GiftBottom } from "./giftBottom.png";
+export { default as GiftBottom } from "./GiftBottom.png";
 export { default as BannerImg } from "./BannerImg.png";
