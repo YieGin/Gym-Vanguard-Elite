@@ -63,7 +63,7 @@ const Header = () => {
           className="SmartphonesSm:ml-auto TabletSm:mr-0 TabletSm:ml-0 SmartphonesSm:mr-auto"
         >
           <img
-            className="TabletSm:w-[120px] h-10 object-cover"
+            className="TabletSm:w-[120px] SmartphonesSm:ml-12 Smartphones:ml-24 TabletSm:ml-0 h-10 object-cover"
             alt="Logo"
             src={Logo}
           />
