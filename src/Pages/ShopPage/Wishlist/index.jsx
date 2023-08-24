@@ -1,4 +1,4 @@
-import React, { useEffect, useLayoutEffect, useRef } from "react";
+import React, { useLayoutEffect } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { motion } from "framer-motion";
 import { useWishlist } from "./WishlistContext";
