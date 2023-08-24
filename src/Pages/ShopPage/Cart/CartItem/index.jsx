@@ -18,7 +18,7 @@ const CartItem = () => {
   return (
     <div
       className="flex flex-col gap-y-4"
-      style={{ height: cart.length <= 2 ? "10vh" : "100%" }}
+      style={{ height: cart.length <= 2 ? "100vh" : "100%" }}
     >
       {cart.map((item, index) => (
         <motion.div

@@ -18,7 +18,7 @@ const Cart = () => {
         Shopping Cart
       </h1>
       {cart.length === 0 ? (
-        <div className="h-[50vh] flex items-center justify-center flex-col font-Roboto">
+        <div className="h-[100vh] flex items-center justify-center flex-col font-Roboto">
           <MdRemoveShoppingCart size={40} color="#ABABAB" />
           <h1 className="text-[20px] mt-6 font-bold text-[#ABABAB]">
             Your cart is empty.

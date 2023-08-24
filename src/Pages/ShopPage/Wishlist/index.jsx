@@ -12,7 +12,7 @@ const Wishlist = () => {
 
   return (
     <div
-      style={{ height: wishlist.length <= 2 ? "70vh" : "100%" }}
+      style={{ height: wishlist.length <= 2 ? "100vh" : "100%" }}
       className="flex flex-col items-center bg-[#F0F0F0] h-full py-8 font-Roboto"
     >
       <h1 className="text-[#ABABAB] text-center text-[24px] font-Roboto font-semibold">
@@ -20,7 +20,7 @@ const Wishlist = () => {
       </h1>
       <div className="flex flex-col gap-y-4 mt-8">
         {wishlist.length === 0 ? (
-          <div className="h-[50vh] flex items-center justify-center flex-col font-Roboto">
+          <div className="h-[100vh] flex items-center justify-center flex-col font-Roboto">
             <TbHeartOff size={40} color="#ABABAB" />
             <h1 className="text-[20px] mt-6 font-bold text-[#ABABAB]">
               Wishlist is empty.
