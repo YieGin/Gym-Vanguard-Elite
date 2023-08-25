@@ -1,4 +1,4 @@
-export { default as Jackets } from "./Jackets";
-export { default as Lifting } from "./Lifting";
-export { default as Shorts } from "./Shorts";
-export { default as Stringers } from "./Stringers";
+export { default as Dildos } from "./Dildos";
+export { default as Vibrators } from "./Vibrators";
+export { default as AnalToys } from "./AnalToys";
+export { default as BDSM } from "./BDSM";

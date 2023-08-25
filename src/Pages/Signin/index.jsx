@@ -1,5 +1,5 @@
 import React, { useLayoutEffect, useState } from "react";
-import { Image4 } from "../../Assets/Images";
+import { Image1 } from "../../Assets/Images";
 import { BiLogoFacebook, BiLogoInstagram, BiLogoGoogle } from "react-icons/bi";
 import "./style.css";
 import SignUp from "./SignUp";
@@ -39,7 +39,7 @@ const Signin = () => {
   });
 
   return (
-    <div className="flex w-full font-Roboto">
+    <div className="flex w-full font-Roboto h-[100vh]">
       <div className="flex flex-col items-center SmartphonesSm:w-[100%] Tablet:w-[50%] bg-[#FFFFFF] h-full border-t-[1px] border-zinc-200">
         <div className="flex border-[1px] px-1 rounded-xl border-zinc-200 SmartphonesSm:w-[280px] Smartphones:w-[384px] h-[44px] items-center justify-center mt-14">
           <div
@@ -128,7 +128,7 @@ const Signin = () => {
         {!isRegistration && <SignUp isRegistration={isRegistration} />}
       </div>
       <div className="Tablet:flex SmartphonesSm:hidden w-[50%] bg-[#D7D7D7]">
-        <img className="w-full h-full object-cover" src={Image4} alt="Login" />
+        <img className="w-full h-full object-cover" src={Image1} alt="Login" />
       </div>
     </div>
   );
