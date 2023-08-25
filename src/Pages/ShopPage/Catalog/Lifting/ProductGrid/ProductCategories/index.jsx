@@ -70,7 +70,7 @@ const ProductCategories = ({
               <motion.div
                 whileHover={{ scale: 1.5 }}
                 whileTap={{ scale: 0.8 }}
-                className="Tablet:w-[144px] Tablet:h-[144px] SmartphonesSm:w-[140px] SmartphonesSm:h-[120px] bg-[#ABABAB] rounded-xl"
+                className="Tablet:w-[144px] Tablet:h-[144px] SmartphonesSm:w-[140px] SmartphonesSm:h-[140px] bg-[#ABABAB] rounded-xl"
               />
             </Link>
             <div className="mt-1 px-5 flex flex-col items-center w-[190px] h-full rounded-[17px]">
