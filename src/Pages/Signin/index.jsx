@@ -39,7 +39,7 @@ const Signin = () => {
   });
 
   return (
-    <div className="flex w-full font-Roboto h-[100vh]">
+    <div className="flex w-full font-Roboto PC:h-[100vh] PC:mb-0 TabletSm:mb-5">
       <div className="flex flex-col items-center SmartphonesSm:w-[100%] Tablet:w-[50%] bg-[#FFFFFF] h-full border-t-[1px] border-zinc-200">
         <div className="flex border-[1px] px-1 rounded-xl border-zinc-200 SmartphonesSm:w-[280px] Smartphones:w-[384px] h-[44px] items-center justify-center mt-14">
           <div
