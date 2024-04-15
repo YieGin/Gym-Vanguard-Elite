@@ -54,7 +54,7 @@ const Ordering = () => {
   }, []);
 
   return (
-    <div className="PC:h-[100vh] TabletSm:bg-[#F0F0F0] h-full">
+    <div className="PC:h-full TabletSm:bg-[#F0F0F0] h-full">
       <form
         onSubmit={formik.handleSubmit}
         className="font-Roboto SmartphonesSm:pb-[30px] TabletSm:pb-[72px]"
